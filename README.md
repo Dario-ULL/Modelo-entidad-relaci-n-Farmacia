@@ -40,6 +40,7 @@
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
 
 ![image](https://github.com/user-attachments/assets/094c7fea-9781-4fcd-a2a3-0ac166b7aad1)
+
 1. **Compra (Cliente con Crédito - Medicamento):**
    - **Cardinalidad:** (1,N) Un cliente puede realizar una o varias compras de medicamentos, pero cada compra está asociada a un único cliente.
    - **Ejemplo:** Un cliente compra paracetamol y aspirinas en diferentes días.
@@ -48,6 +49,7 @@
    - **Ejemplo:** El paracetamol fue comprado por diez clientes a lo largo del día.
 
 ![image](https://github.com/user-attachments/assets/d09d4c48-f30d-4fb7-97bc-3b49568ef9ac)
+
 3. **Fabrica (Farmacia - Medicamento):**
    - **Cardinalidad:** (0,N) La farmacia puede no fabricar o fabricar varios medicamentos.
    - **Ejemplo:** La farmacia fabrica las pastillas para el dolor de garganta pero no fabrica el paracetamol.
@@ -56,6 +58,7 @@
    - **Ejemplo:** Las pastillas para el dolor de garganta son fabricadas por la farmacia.
 
 ![image](https://github.com/user-attachments/assets/1b279f48-52ca-4f82-b7d2-96b2c7dd4217)
+
 5. **Compra (Farmacia - Medicamento - Laboratorio):**
    - **Cardinalidad:** (0,N) Una farmacia puede comprar uno o ningún medicamento específico de un solo laboratorio a la vez.
    - **Ejemplo:** La farmacia compra una caja de aspirinas del laboratorio XYZ.
@@ -67,6 +70,7 @@
    - **Ejemplo:** El laboratorio XYZ vende una caja de aspirinas a una farmacia.
    
 ![image](https://github.com/user-attachments/assets/4684d58d-2d65-4d0f-9a9d-44aefd71373d)
+
 8. **Se compone de (Familia - Medicamento):**
    - **Cardinalidad:** (1,N) Una familia puede estar compuesta por varios medicamentos que afecten a la misma enfermedad.
    - **Ejemplo:** Los medicamentos MED1 y MED2 pertenecen a la familia FAM1.
