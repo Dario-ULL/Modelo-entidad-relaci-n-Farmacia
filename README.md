@@ -12,6 +12,7 @@
      ![image](https://github.com/user-attachments/assets/aa177575-1289-433b-af96-a09ae52b3c49)
 
 2. **Farmacia:** No se especifican atributos en el diagrama.
+   
    ![image](https://github.com/user-attachments/assets/0f2e948c-cc19-4366-a1ed-17d06a2a34da)
 
 4. **Medicamento:**
