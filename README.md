@@ -7,8 +7,8 @@
 5. **Familia:** Es la clasificación a la que pertenece cada medicamento. Puede estar relacionada con grupos de enfermedades o tratamientos específicos.
 ## 2. Descripción y ejemplos ilustrativos del dominio de cada uno de los atributos de las entidades
 1. **Cliente con Crédito:**
-   - ****Dato Bancario:** Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
-   - ****Fecha de Pago:** Fecha en la que un cliente realiza la compra de un medicamento. Ejemplo: “29/09/2024”.
+   - **Dato Bancario:** Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
+   - **Fecha de Pago:** Fecha en la que un cliente realiza la compra de un medicamento. Ejemplo: “29/09/2024”.
 2. **Farmacia:** No se especifican atributos en el diagrama.
 3. **Medicamento:**
    - **Código:** Un identificador único del medicamento. Ejemplo: "MED12345".
@@ -25,7 +25,7 @@
    - **Fax:** Número de fax del laboratorio. Ejemplo: "922654321".
    - **Persona de Contacto:** Persona responsable de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez".
 5. **Familia:**
-   - **Enfermedad que se Aplica: Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
+   - **Enfermedad que se Aplica:** Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
 1. **Compra (Cliente con Crédito - Medicamento):**
    - **Cardinalidad:** (1,N) Un cliente puede realizar una o varias compras de medicamentos, pero cada compra está asociada a un único cliente.
