@@ -9,37 +9,52 @@
 1. **Cliente con Crédito:**
    - **Dato Bancario:** Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
    - **Fecha de Pago:** Fecha en la que un cliente realiza la compra de un medicamento. Ejemplo: “29/09/2024”.
+     ![image](https://github.com/user-attachments/assets/aa177575-1289-433b-af96-a09ae52b3c49)
+
 2. **Farmacia:** No se especifican atributos en el diagrama.
-3. **Medicamento:**
+   ![image](https://github.com/user-attachments/assets/0f2e948c-cc19-4366-a1ed-17d06a2a34da)
+
+4. **Medicamento:**
    - **Código:** Un identificador único del medicamento. Ejemplo: "MED12345".
    - **Nombre:** Nombre comercial del medicamento. Ejemplo: "Paracetamol 500mg".
    - **Precio:** El valor monetario del medicamento. Ejemplo: 10€.
    - **Fecha de Venta:** Fecha en que el medicamento fue vendido. Ejemplo: "15/09/2024".
    - **Unidades Stock:** Cantidad de unidades disponibles en inventario. Ejemplo: 100.
    - **Unidades Vendidas:** Cantidad de unidades que han sido vendidas. Ejemplo: 50.
-4. **Laboratorio:**
+     ![image](https://github.com/user-attachments/assets/73f3b40f-d7b6-40f6-b742-18b2ca7141c9)
+
+5. **Laboratorio:**
    - **Código:** Un identificador único del laboratorio. Ejemplo: "LAB001".
    - **Nombre:** Nombre del laboratorio. Ejemplo: "Laboratorios Farmacéuticos XYZ".
    - **Teléfono:** Número de contacto del laboratorio. Ejemplo: "922123456".
    - **Dirección Postal:** Dirección física del laboratorio. Ejemplo: "Calle 123, Ciudad, País".
    - **Fax:** Número de fax del laboratorio. Ejemplo: "922654321".
    - **Persona de Contacto:** Persona responsable de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez".
-     ![image](https://github.com/user-attachments/assets/26e81a68-8181-427b-901d-a648d9c1dbe3)
-5. **Familia:**
+     ![image](https://github.com/user-attachments/assets/9a3c32cd-d30e-43ee-8e61-e53aa709741e)
+     
+6. **Familia:**
    - **Enfermedad que se Aplica:** Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
+     ![image](https://github.com/user-attachments/assets/9b135fdf-f5d8-4d11-9329-2962b0313953)
+     
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
+
+![image](https://github.com/user-attachments/assets/094c7fea-9781-4fcd-a2a3-0ac166b7aad1)
 1. **Compra (Cliente con Crédito - Medicamento):**
    - **Cardinalidad:** (1,N) Un cliente puede realizar una o varias compras de medicamentos, pero cada compra está asociada a un único cliente.
    - **Ejemplo:** Un cliente compra paracetamol y aspirinas en diferentes días.
 2. **Compra (Medicamento - Cliente con Crédito):**
    - **Cardinalidad:** (1,N) Un medicamento puede ser comprado por uno o varios clientes.
    - **Ejemplo:** El paracetamol fue comprado por diez clientes a lo largo del día.
+
+![image](https://github.com/user-attachments/assets/d09d4c48-f30d-4fb7-97bc-3b49568ef9ac)
 3. **Fabrica (Farmacia - Medicamento):**
    - **Cardinalidad:** (0,N) La farmacia puede no fabricar o fabricar varios medicamentos.
    - **Ejemplo:** La farmacia fabrica las pastillas para el dolor de garganta pero no fabrica el paracetamol.
 4. **Fabrica (Medicamento - Farmacia):**
    - **Cardinalidad:** (1,1) Un medicamento es fabricado por una farmacia.
    - **Ejemplo:** Las pastillas para el dolor de garganta son fabricadas por la farmacia.
+
+![image](https://github.com/user-attachments/assets/1b279f48-52ca-4f82-b7d2-96b2c7dd4217)
 5. **Compra (Farmacia - Medicamento - Laboratorio):**
    - **Cardinalidad:** (0,N) Una farmacia puede comprar uno o ningún medicamento específico de un solo laboratorio a la vez.
    - **Ejemplo:** La farmacia compra una caja de aspirinas del laboratorio XYZ.
@@ -49,6 +64,8 @@
 7. **Compra (Laboratorio - Medicamento - Farmacia):**
    - **Cardinalidad:** (1,N) Un laboratorio puede vender a una farmacia ninguno o algunos medicamentos.
    - **Ejemplo:** El laboratorio XYZ vende una caja de aspirinas a una farmacia.
+   
+![image](https://github.com/user-attachments/assets/4684d58d-2d65-4d0f-9a9d-44aefd71373d)
 8. **Se compone de (Familia - Medicamento):**
    - **Cardinalidad:** (1,N) Una familia puede estar compuesta por varios medicamentos que afecten a la misma enfermedad.
    - **Ejemplo:** Los medicamentos MED1 y MED2 pertenecen a la familia FAM1.
