@@ -35,7 +35,7 @@
      
 6. **Familia:**
    - **Enfermedad que se Aplica:** Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
-     ![image](https://github.com/user-attachments/assets/9b135fdf-f5d8-4d11-9329-2962b0313953)
+     ![image](https://github.com/user-attachments/assets/80c96dc4-d481-445b-8054-a136702a0c62)
      
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
 
