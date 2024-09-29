@@ -43,7 +43,7 @@
      
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
 
-![image](https://github.com/user-attachments/assets/3f2ce2c3-f3a5-4b91-bfd9-b3e4041100cb)
+![image](https://github.com/user-attachments/assets/69b6047b-887d-4b58-a36e-1404b06874ce)
 
 1. **Compra (Cliente con Crédito - Medicamento):**
    - **Cardinalidad:** (1,N) Un cliente puede realizar una o varias compras de medicamentos, pero cada compra está asociada a un único cliente.
