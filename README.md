@@ -24,6 +24,7 @@
    - **Dirección Postal:** Dirección física del laboratorio. Ejemplo: "Calle 123, Ciudad, País".
    - **Fax:** Número de fax del laboratorio. Ejemplo: "922654321".
    - **Persona de Contacto:** Persona responsable de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez".
+     ![image](https://github.com/user-attachments/assets/26e81a68-8181-427b-901d-a648d9c1dbe3)
 5. **Familia:**
    - **Enfermedad que se Aplica:** Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
