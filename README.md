@@ -1,11 +1,11 @@
-## Informe del Diagrama ER
-# 1. Descripción de cada una de las entidades definidas
+# Informe del Diagrama ER
+## 1. Descripción de cada una de las entidades definidas
 Cliente con Crédito: Representa a los clientes que tienen la posibilidad de realizar compras a crédito. Estos clientes deben estar registrados para poder usar esta opción de pago.
 Farmacia: Es la entidad que adquiere los medicamentos. Representa a los establecimientos que compran medicamentos a los laboratorios para su venta al público.
 Medicamento: Es la entidad central que representa los productos farmacéuticos que son vendidos en la farmacia.
 Laboratorio: Representa a las entidades que fabrican medicamentos.
 Familia: Es la clasificación a la que pertenece cada medicamento. Puede estar relacionada con grupos de enfermedades o tratamientos específicos.
-# 2. Descripción y ejemplos ilustrativos del dominio de cada uno de los atributos de las entidades
+## 2. Descripción y ejemplos ilustrativos del dominio de cada uno de los atributos de las entidades
 Cliente con Crédito:
 Dato Bancario: Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
 Fecha de Pago: Fecha en la que un cliente realiza la compra de un medicamento. Ejemplo: “29/09/2024”.
@@ -26,7 +26,7 @@ Fax: Número de fax del laboratorio. Ejemplo: "922654321".
 Persona de Contacto: Persona responsable de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez".
 Familia:
 Enfermedad que se Aplica: Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
-# 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
+## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
 Compra (Cliente con Crédito - Medicamento):
 Cardinalidad: (1,N) Un cliente puede realizar una o varias compras de medicamentos, pero cada compra está asociada a un único cliente.
 Ejemplo: Un cliente compra paracetamol y aspirinas en diferentes días.
@@ -54,7 +54,7 @@ Ejemplo: Los medicamentos MED1 y MED2 pertenecen a la familia FAM1.
 Pertenece (Medicamento - Familia):
 Cardinalidad: (1,1) Un medicamento pertenece a una única familia farmacéutica.
 Ejemplo: El "Ibuprofeno" pertenece a la familia de "Analgésicos".
-# 4. Restricciones semánticas
+## 4. Restricciones semánticas
 Restricción de unicidad en los códigos: Tanto los laboratorios como los medicamentos deben tener códigos únicos para evitar confusión entre diferentes instancias.
 Unidades en Stock: El valor de las unidades en stock no puede ser negativo.
 Compatibilidad entre Receta y Medicamento: Los medicamentos que requieren receta no deben ser vendidos sin la misma, por lo que es importante incluir una verificación en el sistema que asegure que los medicamentos de este tipo solo se venden si tienen una receta vinculada.
