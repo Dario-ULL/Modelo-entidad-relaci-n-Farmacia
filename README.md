@@ -1,10 +1,15 @@
 # Informe del Diagrama ER
 ## 1. Descripción de cada una de las entidades definidas
 1 Cliente con Crédito: Representa a los clientes que tienen la posibilidad de realizar compras a crédito. Estos clientes deben estar registrados para poder usar esta opción de pago.
+
 2 Farmacia: Es la entidad que adquiere los medicamentos. Representa a los establecimientos que compran medicamentos a los laboratorios para su venta al público.
+
 3 Medicamento: Es la entidad central que representa los productos farmacéuticos que son vendidos en la farmacia.
+
 4 Laboratorio: Representa a las entidades que fabrican medicamentos.
+
 5 Familia: Es la clasificación a la que pertenece cada medicamento. Puede estar relacionada con grupos de enfermedades o tratamientos específicos.
+
 ## 2. Descripción y ejemplos ilustrativos del dominio de cada uno de los atributos de las entidades
 1 Cliente con Crédito:
   _ Dato Bancario: Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
