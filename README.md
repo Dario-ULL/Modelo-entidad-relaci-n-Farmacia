@@ -9,6 +9,7 @@
 1. **Cliente con Crédito:**
    - **Dato Bancario:** Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
    - **Fecha de Pago:** Fecha en la que un cliente realiza la compra de un medicamento. Ejemplo: “29/09/2024”.
+     
      ![image](https://github.com/user-attachments/assets/aa177575-1289-433b-af96-a09ae52b3c49)
 
 2. **Farmacia:** No se especifican atributos en el diagrama.
@@ -22,6 +23,7 @@
    - **Fecha de Venta:** Fecha en que el medicamento fue vendido. Ejemplo: "15/09/2024".
    - **Unidades Stock:** Cantidad de unidades disponibles en inventario. Ejemplo: 100.
    - **Unidades Vendidas:** Cantidad de unidades que han sido vendidas. Ejemplo: 50.
+     
      ![image](https://github.com/user-attachments/assets/73f3b40f-d7b6-40f6-b742-18b2ca7141c9)
 
 5. **Laboratorio:**
@@ -31,10 +33,12 @@
    - **Dirección Postal:** Dirección física del laboratorio. Ejemplo: "Calle 123, Ciudad, País".
    - **Fax:** Número de fax del laboratorio. Ejemplo: "922654321".
    - **Persona de Contacto:** Persona responsable de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez".
+     
      ![image](https://github.com/user-attachments/assets/9a3c32cd-d30e-43ee-8e61-e53aa709741e)
      
 6. **Familia:**
    - **Enfermedad que se Aplica:** Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
+     
      ![image](https://github.com/user-attachments/assets/80c96dc4-d481-445b-8054-a136702a0c62)
      
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
