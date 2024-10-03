@@ -24,7 +24,7 @@
    - **Unidades Stock:** Cantidad de unidades disponibles en inventario. Ejemplo: 100.
    - **Unidades Vendidas:** Cantidad de unidades que han sido vendidas. Ejemplo: 50.
      
-     <img width="400" alt="MED" src="https://github.com/user-attachments/assets/251f7af1-92ae-4c96-9cdf-5ab197f73240">
+     <img width="500" alt="MED" src="https://github.com/user-attachments/assets/251f7af1-92ae-4c96-9cdf-5ab197f73240">
 
 5. **Laboratorio:**
    - **Código:** Un identificador único del laboratorio. Ejemplo: "LAB001".
