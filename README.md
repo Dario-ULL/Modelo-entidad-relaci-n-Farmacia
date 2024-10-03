@@ -24,7 +24,7 @@
    - **Unidades Stock:** Cantidad de unidades disponibles en inventario. Ejemplo: 100.
    - **Unidades Vendidas:** Cantidad de unidades que han sido vendidas. Ejemplo: 50.
      
-     ![image](https://github.com/user-attachments/assets/73f3b40f-d7b6-40f6-b742-18b2ca7141c9)
+     <img width="374" alt="MED" src="https://github.com/user-attachments/assets/3cd2adf1-a453-423f-adef-d6c22d9509d3">
 
 5. **Laboratorio:**
    - **Código:** Un identificador único del laboratorio. Ejemplo: "LAB001".
@@ -39,8 +39,9 @@
 6. **Familia:**
    - **Enfermedad que se Aplica:** Nombre de la enfermedad o dolencia que trata el medicamento. Ejemplo: "Dolor de cabeza", "Gripe".
      
-     ![image](https://github.com/user-attachments/assets/80c96dc4-d481-445b-8054-a136702a0c62)
-     
+
+     <img width="218" alt="FAMILIA" src="https://github.com/user-attachments/assets/43e59ba1-e3a1-4aa3-a286-d68bf43c7d45">
+
 ## 3. Descripción de cada una de las relaciones definidas y sus cardinalidades
 
 ![image](https://github.com/user-attachments/assets/69b6047b-887d-4b58-a36e-1404b06874ce)
@@ -61,7 +62,7 @@
    - **Cardinalidad:** (1,1) Un medicamento es fabricado por una farmacia.
    - **Ejemplo:** Las pastillas para el dolor de garganta son fabricadas por la farmacia.
 
-![image](https://github.com/user-attachments/assets/c64b3858-c7fc-4f96-803a-d6f76e761cfb)
+<img width="374" alt="COMPRAFARMEDLAB" src="https://github.com/user-attachments/assets/b22df4a1-31d4-49fc-8123-bd5fd288d6d6">
 
 5. **Compra (Farmacia - Medicamento - Laboratorio):**
    - **Cardinalidad:** (0,N) Una farmacia puede comprar uno o ningún medicamento específico de un solo laboratorio a la vez.
