@@ -73,7 +73,7 @@
    - **Cardinalidad:** (1,N) Un laboratorio puede vender a una farmacia ninguno o algunos medicamentos.
    - **Ejemplo:** El laboratorio XYZ vende una caja de aspirinas a una farmacia.
 
-<img width="254" alt="PERTECENEMEDFAM" src="https://github.com/user-attachments/assets/927bef41-7603-49c8-9171-6bbf86a03abc">
+![image](https://github.com/user-attachments/assets/927bef41-7603-49c8-9171-6bbf86a03abc")
 
 
 8. **Se compone de (Familia - Medicamento):**
