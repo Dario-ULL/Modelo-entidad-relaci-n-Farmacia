@@ -72,8 +72,9 @@
 7. **Compra (Laboratorio - Medicamento - Farmacia):**
    - **Cardinalidad:** (1,N) Un laboratorio puede vender a una farmacia ninguno o algunos medicamentos.
    - **Ejemplo:** El laboratorio XYZ vende una caja de aspirinas a una farmacia.
-   
-![image](https://github.com/user-attachments/assets/4df65caa-d686-43a2-9e66-3be60bef1fb8)
+
+<img width="254" alt="PERTECENEMEDFAM" src="https://github.com/user-attachments/assets/927bef41-7603-49c8-9171-6bbf86a03abc">
+
 
 8. **Se compone de (Familia - Medicamento):**
    - **Cardinalidad:** (1,N) Una familia puede estar compuesta por varios medicamentos que afecten a la misma enfermedad.
