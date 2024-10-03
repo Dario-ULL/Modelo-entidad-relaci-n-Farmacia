@@ -8,7 +8,7 @@
 ## 2. Descripción y ejemplos ilustrativos del dominio de cada uno de los atributos de las entidades
 1. **Cliente con Crédito:**
    - **Dato Bancario:** Datos relacionados con la cuenta bancaria del cliente. Ejemplo: número de cuenta, banco asociado.
-   - **Fecha de Pago:** Fecha en la que un cliente realiza la compra de un medicamento. Ejemplo: “29/09/2024”.
+   - **Fecha de Pago:** Atributo Multivaluado. Fechas en las que un cliente realiza las compras de un medicamento. Ejemplo: “29/09/2024”, “09/11/2020”, “27/10/2009”.
      
      ![image](https://github.com/user-attachments/assets/aa177575-1289-433b-af96-a09ae52b3c49)
 
@@ -21,8 +21,8 @@
    - **Nombre:** Nombre comercial del medicamento. Ejemplo: "Paracetamol 500mg".
    - **Precio:** El valor monetario del medicamento. Ejemplo: 10€.
    - **Fecha de Venta:** Fecha en que el medicamento fue vendido. Ejemplo: "15/09/2024".
-   - **Unidades Stock:** Cantidad de unidades disponibles en inventario. Ejemplo: 100.
-   - **Unidades Vendidas:** Cantidad de unidades que han sido vendidas. Ejemplo: 50.
+   - **Unidades Stock:** Atributo Calculado. Unidades disponibles totales en inventario. (Disminuye según las unidades vendidas y aumenta segun los medicamentos fabricados o comprados) Ejemplo: 100.
+   - **Unidades Vendidas:** Atributo Calculado. Unidades que han sido vendidas. (Aumenta según las compras de los clientes) Ejemplo: 50.
      
      <img width="500" alt="MED" src="https://github.com/user-attachments/assets/251f7af1-92ae-4c96-9cdf-5ab197f73240">
 
@@ -32,7 +32,7 @@
    - **Teléfono:** Número de contacto del laboratorio. Ejemplo: "922123456".
    - **Dirección Postal:** Dirección física del laboratorio. Ejemplo: "Calle 123, Ciudad, País".
    - **Fax:** Número de fax del laboratorio. Ejemplo: "922654321".
-   - **Persona de Contacto:** Persona responsable de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez".
+   - **Persona de Contacto:** Atributo Multievaludo. Personas responsables de las comunicaciones del laboratorio. Ejemplo: "Juan Pérez, Veronica Chavez, Luigi Mario".
      
      ![image](https://github.com/user-attachments/assets/9a3c32cd-d30e-43ee-8e61-e53aa709741e)
      
